@@ -1,0 +1,29 @@
+{
+  "name": "jncinet/qihucms-wechat",
+  "description": "qihucms wechat.",
+  "keywords": [
+    "qihucms",
+    "wechat"
+  ],
+  "homepage": "https://www.qihucms.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhangye",
+      "email": "y@qilephp.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Qihucms\\Wechat\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Qihucms\\Wechat\\WechatServiceProvider"
+      ]
+    }
+  }
+}
